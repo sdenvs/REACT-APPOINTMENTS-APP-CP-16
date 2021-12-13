@@ -15,8 +15,8 @@ const AppointmentItem = props => {
   return (
     <li className="app">
       <div className="app-top-container">
-        <h1 className="app-heading">{title}</h1>
-        <button onClick={changeStar}>
+        <p className="app-heading">{title}</p>
+        <button testid="star" onClick={changeStar}>
           <img
             className="app-star"
             alt="star"
