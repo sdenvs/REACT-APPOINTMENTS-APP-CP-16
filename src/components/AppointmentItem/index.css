@@ -1,1 +1,34 @@
 /* Write your CSS here */
+.app-heading {
+  font-size: 18px;
+  color: #171f46;
+}
+.app-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-top-container button {
+  background-color: transparent;
+  border-style: none;
+}
+.app-time {
+  font-size: 13px;
+  color: #b5b7c4;
+}
+.app {
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b5b7c4;
+  padding: 15px;
+  padding-top: 0px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.app-star {
+  width: 25px;
+  height: 25px;
+}

@@ -1,1 +1,107 @@
 /* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+
+.heading {
+  font-size: 25px;
+  color: #171f46;
+}
+.label {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #8b5cf6;
+  border-style: none;
+  color: #ffffff;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+}
+.subHeading {
+  font-size: 20px;
+  color: #171f46;
+}
+.unStarred {
+  color: #9897f0;
+  width: 80px;
+  height: 20px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9897f0;
+  border-radius: 10px;
+}
+.starred {
+  color: #ffffff;
+  width: 80px;
+  height: 20px;
+  background-color: #9897f0;
+  border-style: none;
+  border-radius: 10px;
+}
+.starredDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appList {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .bgContainer {
+    background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+    height: fit-content;
+    background-size: cover;
+    padding: 60px;
+  }
+  .card-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .appointment-image {
+    width: 80%;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 35px;
+  }
+  .input {
+    width: 40vw;
+    height: 35px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .bgContainer {
+    background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+    height: 100%;
+    background-size: cover;
+    padding: 20px;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .appointment-image {
+    display: none;
+  }
+  .input {
+    width: 90%;
+    max-width: 300px;
+    height: 35px;
+    margin-bottom: 20px;
+  }
+}
